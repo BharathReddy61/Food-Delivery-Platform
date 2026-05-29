@@ -14,6 +14,9 @@ export interface Restaurant {
   rating: number;
   open: boolean;
   ownerId: number;
+
+  distanceKm?: number;
+  deliveryRadiusKm?: number;
 }
 
 export interface MenuItem {

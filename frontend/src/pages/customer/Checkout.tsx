@@ -32,7 +32,7 @@ const Checkout = () => {
   const [deliveryAddress, setDeliveryAddress] = useState('');
   const [step, setStep] = useState<PaymentStep>('idle');
   const [errorMessage, setErrorMessage] = useState('');
-  const [order, setOrder] = useState<Order | null>(null);
+  const [, setOrder] = useState<Order | null>(null);
 
   useEffect(() => {
     // Preload Razorpay script while user fills address

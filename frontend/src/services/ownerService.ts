@@ -1,4 +1,5 @@
 import api from '../api/axiosConfig';
+import type { OwnerDashboardData } from '../types';
 import type { Order, MenuItem, Restaurant } from '../types';
 
 // All requests automatically carry the JWT via Axios interceptor.

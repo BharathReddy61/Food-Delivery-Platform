@@ -138,9 +138,23 @@ const OwnerMenu = () => {
         <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-6 mb-6">
           <h2 className="font-bold text-gray-900 mb-4">{mode === 'create' ? 'Add New Item' : 'Edit Item'}</h2>
           <MenuItemForm
-            initialData={editingItem ?? undefined}
+            initialData={
+              editingItem
+                ? {
+                    name: editingItem.name,
+                    description: editingItem.description,
+                    price: editingItem.price,
+                    category: editingItem.category,
+                    imageUrl: editingItem.imageUrl ?? '',
+                    available: editingItem.available,
+                  }
+                : undefined
+            }
             onSubmit={mode === 'create' ? handleCreate : handleEdit}
-            onCancel={() => { setMode('list'); setEditingItem(null); }}
+            onCancel={() => {
+              setMode('list');
+              setEditingItem(null);
+            }}
             submitLabel={mode === 'create' ? 'Create Item' : 'Save Changes'}
           />
         </div>
