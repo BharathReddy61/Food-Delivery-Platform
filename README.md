@@ -12,26 +12,6 @@ A full-stack food delivery application that enables customers to browse restaura
 * Add items to cart
 * Place orders
 * Online payment integration
-* Order tracking
-
-### Restaurant Owner
-
-* Restaurant management
-* Menu management
-* Order management
-* Dashboard analytics
-
-### Delivery Partner
-
-* View assigned deliveries
-* Update delivery status
-* Delivery tracking workflow
-
-### Admin
-
-* User management
-* Restaurant monitoring
-* Platform oversight
 
 ---
 
@@ -162,6 +142,25 @@ Add screenshots of:
 * AI-based restaurant recommendations
 * Multi-vendor support
 * Cloud deployment
+
+### Restaurant Owner
+
+* Restaurant management
+* Menu management
+* Order management
+* Dashboard analytics
+   
+### Delivery Partner
+
+* View assigned deliveries
+* Update delivery status
+* Delivery tracking workflow
+
+### Admin
+
+* User management
+* Restaurant monitoring
+* Platform oversight
 
 ---
 
